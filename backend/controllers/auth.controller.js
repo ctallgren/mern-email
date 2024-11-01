@@ -1,5 +1,4 @@
 import bcryptjs from "bcryptjs";
-import crypto from "crypto";
 
 import { User } from "../models/user.model.js";
 import { generateVerificationToken } from "../utils/generateVerificationToken.js";
